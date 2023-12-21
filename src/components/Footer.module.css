@@ -70,6 +70,10 @@
   display: flex;
 }
 
+.get-intouch h5 {
+  margin-bottom: 5px;
+}
+
 .address p {
   font-weight: 500;
   font-size: 15px;
