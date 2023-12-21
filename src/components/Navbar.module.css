@@ -1,0 +1,82 @@
+.navbar {
+  max-height: 300px;
+  border-bottom: 0.5px solid #eee6e6;
+}
+
+.contact-info {
+  height: 50px;
+  background-color: #17478d;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  font-size: 13px;
+  gap: 2rem;
+  justify-content: right;
+  padding-right: 75px;
+}
+
+.contact-info p {
+  text-align: right;
+  padding-top: 5px;
+}
+
+.contact-info p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact-info .contact-icon {
+  padding-right: 5px;
+  position: relative;
+}
+
+.main-nav nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.logo {
+  color: #133a75;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a:visited,
+.logo a:hover,
+.logo a:active {
+  cursor: pointer;
+  color: #133a75;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  padding-right: 50px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  text-decoration: underline;
+  text-decoration-color: #1a73e8;
+  text-decoration-thickness: 2px;
+  text-underline-offset: calc(10px);
+}

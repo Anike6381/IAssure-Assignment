@@ -1,0 +1,107 @@
+.footer-up {
+  display: flex;
+  gap: 10rem;
+  background-color: #17478d;
+  color: white;
+  padding: 50px;
+}
+
+.social {
+  margin-left: 50px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons div {
+  height: 13px;
+  width: 13px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.social-icons div:hover {
+  cursor: pointer;
+}
+
+.website {
+  display: flex;
+  gap: 1rem;
+  margin-top: 15px;
+}
+
+.website div {
+  height: 13px;
+  width: 13px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 9px;
+  margin-top: 10px;
+}
+
+.website p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.website p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.services h5 {
+  margin-bottom: 5px;
+}
+
+.services-sections {
+  display: flex;
+  gap: 10rem;
+}
+
+.services-sections p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.address {
+  display: flex;
+}
+
+.address p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.address i {
+  margin-top: 17px;
+  margin-right: 10px;
+}
+
+.horizontal-line {
+  width: 300px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.phoneno {
+  margin-bottom: 0;
+}
+
+.footer-down {
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  gap: 33rem;
+  background-color: #133a75;
+  padding: 15px;
+  padding-left: 50px;
+}
+
+.footer-down span {
+  font-weight: bold;
+}
